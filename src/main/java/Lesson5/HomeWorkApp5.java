@@ -11,7 +11,7 @@ public class HomeWorkApp5 {
         employee[4] = new Employee("Вовов Катя", "дизайнер", "votya@mailbox.com", "134543", 55000, 29);
 
         for (int i = 0; i < employee.length; i++) {
-            if (employee[i].age > 40){
+            if (employee[i].age > 40) {
                 employee[i].info();
             }
         }
